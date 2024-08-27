@@ -11,7 +11,7 @@ const Hours = () => {
     const todayHours = isWeekend ? openingHours.weekend : openingHours.weekday;
   
     return (
-      <div>
+      <div className="hours-wrapper">
         <h2>Today's Opening Hours</h2>
         <p><strong>{days[today]}:</strong> {todayHours}</p>
       </div>
